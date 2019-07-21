@@ -1,0 +1,41 @@
+html {
+    background: url(https://images.unsplash.com/photo-1446435210126-bfa18ee3b7a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80); 
+    background-size: cover;
+}
+.Body {
+    position: relative;
+}
+.Body__wrapper {
+    width: 90%;
+    margin: 0 auto;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 5%; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .Body__wrapper--singleMode {
+   display:block;
+   width:35%;
+
+} */
+.Body h1 {
+    font-family: 'Bad Script';
+    text-align: center;
+    font-size: 3.7em;
+    font-weight: 600;
+    margin: 70px 0 ;
+    color:white
+}
+.Body .setting {
+    color:white;
+    cursor:pointer;
+    position:absolute;
+    top:25px;
+    right:5%;
+}
+.Body .setting i {
+    margin-right:8px;
+    font-size:1.1em;
+}
